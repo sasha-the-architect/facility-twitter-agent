@@ -3,6 +3,8 @@ FROM python:3.11-slim
 # Install Node.js for bird CLI
 RUN apt-get update && apt-get install -y \
     curl \
+    nodejs \
+    npm \
     && rm -rf /var/lib/apt/lists/*
 
 # Install bird CLI
