@@ -1,0 +1,13 @@
+# Python dependencies for The Facility Twitter Agent
+
+# No external Python dependencies required
+# Uses only standard library:
+# - os, sys, time, json, random, argparse, subprocess, logging, datetime, pathlib, typing
+
+# Optional: For enhanced logging
+# colorlog>=6.7.0
+
+# Optional: For async operations
+# aiohttp>=3.8.0
+
+# Note: Bird CLI is installed via npm (see Dockerfile)

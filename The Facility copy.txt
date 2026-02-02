@@ -1,0 +1,44 @@
+The Facility
+What is The Facility?
+A platform for crowdfunding multimedia projects that can be delivered digitally through the use of smart contracts and decentralized delivery services.
+The Facility works as a way to increase creativity in the market by removing gatekeepers and corporations from controlling what and how artists create.
+Investors are known as “Facilitators” and are rewarded in US dollars in accordance with their share of the project’s fundraising. All onboarding and exits will be performed in US dollars to eliminate the need to sign up for confusing decentralized custody so we can reach a larger audience. All activities on the platform are performed and managed by smart contracts. (NFT)
+Creators can choose to sell a portion of the project off and keep a portion for themselves as well as the people working on the project. 
+For example: a creator can sell 20% of the project for $100,000 in funding. The remaining balance of ownership can be gifted to collaborators by the creator on the project to ensure they will own a portion of the creative project in perpetuity for their contributions to the project in lieu of payment or as payment for their services. This eliminates the confusion between front end and back end points. 
+Creators sell initial funding opportunities to the public. Once funded, the creator is under contract to deliver the creative project to the distribution platform (DIGI). 
+Projects will receive portions of the funds that are kept in escrow after milestones are achieved. The final milestone for every project is a finished project which will unlock the remaining 50% of the funds. These milestones can include scripts, budgets, demo tapes, or other proof of concept thresholds. Each project can choose its milestones at the start of the offering and the investors are made aware of these before they choose to put their money into the project but the final milestone (delivery) will always be 50% of the remaining funds.. This allows comparative advantages to projects that have stricter guidelines for the funds to be released to the creator for creation purposes in the real world.  
+Projects can choose to “hire” a third party “curator” to review and consult on the project’s milestones.
+The distribution platform (DIGI) is powered by a decentralized video encoding network called Livepeer and Audius. The participating computers share the load of the video encoding and receive rewards for delivery. The remaining balance of the income on the project is then distributed back to the creator and the facilitators. 
+Projects that have multiple milestones and a curator will be viewed as safer investments whereas more risky investments might not have as many protections for the investors. This will create a sense of responsibility to the investors that the projects will need to fulfill because projects without these might not receive their desired level of investment.
+If a project fails to reach its goal, the funds will be returned from the escrow account to the individual investors accounts. 
+Interest in projects can be traded on a secondary market and sold by the original holder in an auction or listed for its dollar value once the project has gone live. Interest in projects cannot be traded until the project is fully funded and goes live on DIGI. This will create peace of mind for investors who are looking for exit strategies in their investments if they decide they want to deploy their capital elsewhere. 
+The secondary market can be powered by automated marker makers (AMM) services where investors can choose to deploy their capital on the AMM for liquidity in this secondary market and earn fees on the money they lend to sellers looking to exit their positions. Insurance on this liquidity can be bought for an additional fee to create a net neutral scenario. Each project will have a log of its royalty income where an algorithm will determine the fee associated with selling their position without an immediate buyer or auction.
+All projects funded through the facility are distributed through DIGI until the initial investment has been recouped. After the initial investment has been recouped, the community can vote to keep the project on DIGI or pursue larger distribution chains through a DAO style vote. 
+How does the Facility make money?  Management fee of every transaction of 3%  Every project gifts 5% of the interest in the project to the facility as a market maker and distribution entity. 
+The facility has multiple markets, some operating with different offerings for people looking to contribute value in ways they have a comparative advantage such as sweat equity or providing compute for GPU or CPU intensive applications like blender or AI workflows. This will allow the facilitators to provide equity in both forms and create a community that is involved in several levels, deepening the potential for viral growth through socialized resources and interest in projects which bolsters sharability and community engagement. 
+Creators cannot sell more than 51% of their ownership in the project to maintain creative authorship and to prevent governance deadlock. 
+
+DIGI
+What is DIGI?
+
+DIGI is a distribution platform that hosts a variety of multimedia projects that are funded through The Facility. 
+Branded on its own and not to be connected on the surface to The Facility. 
+Due to decentralized video and media encoding, DIGI does not need to buy time on or build a data center to deliver the media which will enable DIGI to be deployed without large scale initial capital investment.  
+Users can provide GPU and web hosting for rewards that can be compounded back into facility projects. 
+Using a micro transaction model, this platform will compete through volume and not on a SaaS model. Consumers are tired of supporting monthly subscriptions to services that control and monopolize creative content and allow them to gain access to new and exciting projects as they come out. Users will buy credits or earn credits to spend on watching content created by communities of online or in person collaborators. 
+Creators and facilitators from the Facility will act as marketing for the project due to the number of investors in the project as each investor now becomes a mouthpiece for the project, launching a coordinated word of mouth approach to the media. 
+Word of mouth advertising is becoming more and more prevalent in today’s world as people are weary of corporations and their interests in controlling and commodifying art for profit and not for culture. 
+Leveraging this sentiment, the projects on DIGI will be seen as independent ways to support artists at their core instead of supporting a faceless corporate entity. 
+How does DIGI make money? DIGI charges a 10% fee on every project delivered to customers. 5% goes to the encoders and 5% goes to DIGI. 90% of the fee paid by the end user goes to the project stakeholders until the project is “vested” and earns the ability to be sold elsewhere based on governance voting.
+DIGI will also host a distribution negotiation program that ensures full transparency for stakeholders. In order for any project to be sold off platform, the transaction must go through DIGI where we will charge a 5% fee on the sale of the project. 2.5% of this will be used to buy back DIGI and 2.5% will be distributed back to DIGI for legal and clerical resources.
+
+To do for launch of token:
+
+Build promotional landing page that features a roadmap to token launch, a pitch without giving away technology or inner workings and an announcement of a pre-launch airdrop for both token platforms. 
+Research x accounts that have decent reach and influence without being overly shilly. Reach out to schedule a zoom meeting with an NDA to find partnerships to launch x account. 
+Create 10 topics the account can either repost or comment on. These should be related to the product offered to engage with non-crypto users and some should be native crypto related information specifically defi and depin 
+Using the 10 topics, create a schedule of posts relating to the rollout of the roadmap and coordinated with those dates to ensure each launch has a carefully planned posting schedule to engage users. 
+launch x account 
+Once we have 10k followers, we will launch the token. Incentives should be setup for people to share and get access to airdrop points by connecting their wallet to their x account 
+
+

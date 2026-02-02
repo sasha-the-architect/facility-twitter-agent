@@ -1,0 +1,94 @@
+{
+  "$schema": "https://railway.app/schema.json",
+  "name": "facility-twitter-agent",
+  "owner": "sasha-paskal-llc",
+  "description": "Autonomous Twitter/X automation for The Facility - engagement, reposting, and content scheduling",
+  "repository": "https://github.com/sashapaskal/mr-sashito",
+  "build": {
+    "builder": "NIXPACKS",
+    "nixpacksPlan": {
+      "pkgs": ["python310", "git"]
+    }
+  },
+  "deploy": {
+    "startCommand": "python3 facility_twitter_agent.py --mode daemon",
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 3
+  },
+  "envVars": [
+    {
+      "key": "PYTHONPATH",
+      "value": "."
+    },
+    {
+      "key": "WORKSPACE_PATH",
+      "value": "."
+    },
+    {
+      "key": "TWEETS_DIR",
+      "value": "./CONTENT/tweets"
+    },
+    {
+      "key": "CONFIG_DIR",
+      "value": "./config"
+    },
+    {
+      "key": "STATE_FILE",
+      "value": "./.facility_twitter_state.json"
+    },
+    {
+      "key": "LOG_FILE",
+      "value": "./logs/facility_twitter.log"
+    },
+    {
+      "key": "TWITTER_AUTH_TOKEN",
+      "description": "Twitter auth_token cookie (from browser DevTools)",
+      "required": true,
+      "preview": true
+    },
+    {
+      "key": "TWITTER_CT0",
+      "description": "Twitter ct0 cookie (from browser DevTools)",
+      "required": true,
+      "preview": true
+    },
+    {
+      "key": "RATE_LIMIT_MIN",
+      "value": "60"
+    },
+    {
+      "key": "RATE_LIMIT_MAX",
+      "value": "90"
+    },
+    {
+      "key": "DAILY_LIMIT",
+      "value": "50"
+    },
+    {
+      "key": "REPOST_ENABLED",
+      "value": "true"
+    },
+    {
+      "key": "REPOST_INTERVAL_HOURS",
+      "value": "6"
+    },
+    {
+      "key": "POST_TIMES",
+      "value": "[\"08:00\", \"12:00\", \"18:00\", \"21:00\"]"
+    }
+  ],
+  "volumes": [
+    {
+      "mountPath": "./logs",
+      "size": "100Mi"
+    },
+    {
+      "mountPath": "./CONTENT",
+      "size": "500Mi"
+    }
+  ],
+  "schedule": {
+    "cronExpression": "0 * * * *",
+    "timezone": "America/Los_Angeles"
+  }
+}
