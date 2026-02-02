@@ -35,7 +35,12 @@ CONFIG = {
     "state_file": os.environ.get("STATE_FILE", "/workspace/.facility_twitter_state.json"),
     "log_file": os.environ.get("LOG_FILE", "/workspace/logs/facility_twitter.log"),
     
-    # Twitter credentials (env vars or file)
+    # Twitter credentials (env vars)
+    "api_key": os.environ.get("TWITTER_API_KEY", ""),
+    "api_secret": os.environ.get("TWITTER_API_SECRET", ""),
+    "bearer_token": os.environ.get("TWITTER_BEARER_TOKEN", ""),
+    "access_token": os.environ.get("TWITTER_ACCESS_TOKEN", ""),
+    "access_secret": os.environ.get("TWITTER_ACCESS_SECRET", ""),
     "auth_token": os.environ.get("TWITTER_AUTH_TOKEN", ""),
     "ct0": os.environ.get("TWITTER_CT0", ""),
     

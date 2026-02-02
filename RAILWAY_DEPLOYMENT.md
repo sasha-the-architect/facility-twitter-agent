@@ -35,14 +35,25 @@ In Railway dashboard, set these variables:
 
 | Variable | Value | Required |
 |----------|-------|----------|
-| `TWITTER_AUTH_TOKEN` | Your Twitter auth_token cookie | ✅ Yes |
-| `TWITTER_CT0` | Your Twitter ct0 cookie | ✅ Yes |
+| `TWITTER_API_KEY` | Your Twitter API Key | ✅ Yes |
+| `TWITTER_API_SECRET` | Your Twitter API Secret | ✅ Yes |
+| `TWITTER_BEARER_TOKEN` | Your Twitter Bearer Token | No |
+| `TWITTER_AUTH_TOKEN` | Twitter auth_token cookie (alternative) | No |
+| `TWITTER_CT0` | Twitter ct0 cookie (alternative) | No |
 | `RATE_LIMIT_MIN` | `60` | No |
 | `RATE_LIMIT_MAX` | `90` | No |
 | `DAILY_LIMIT` | `50` | No |
 | `REPOST_ENABLED` | `true` | No |
 
-**Getting Twitter Cookies:**
+**Getting Twitter API Keys:**
+1. Go to https://developer.twitter.com/en/portal/dashboard
+2. Create a new project + app
+3. Generate API Key and API Secret Key
+4. Generate Bearer Token (optional)
+5. Add keys to Railway environment variables
+
+**Alternative: Cookie Auth**
+If API keys don't work, use browser cookies:
 1. Open x.com in browser (Chrome/Arc)
 2. Open DevTools (Cmd+Option+I)
 3. Go to Application → Cookies → https://x.com

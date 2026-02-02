@@ -3,7 +3,7 @@
   "name": "facility-twitter-agent",
   "owner": "sasha-paskal-llc",
   "description": "Autonomous Twitter/X automation for The Facility - engagement, reposting, and content scheduling",
-  "repository": "https://github.com/sashapaskal/mr-sashito",
+  "repository": "https://github.com/sasha-the-architect/facility-twitter-agent",
   "build": {
     "builder": "NIXPACKS",
     "nixpacksPlan": {
@@ -41,15 +41,33 @@
       "value": "./logs/facility_twitter.log"
     },
     {
-      "key": "TWITTER_AUTH_TOKEN",
-      "description": "Twitter auth_token cookie (from browser DevTools)",
+      "key": "TWITTER_API_KEY",
+      "description": "Twitter API Key (from developer.twitter.com)",
       "required": true,
       "preview": true
     },
     {
-      "key": "TWITTER_CT0",
-      "description": "Twitter ct0 cookie (from browser DevTools)",
+      "key": "TWITTER_API_SECRET",
+      "description": "Twitter API Secret (from developer.twitter.com)",
       "required": true,
+      "preview": true
+    },
+    {
+      "key": "TWITTER_BEARER_TOKEN",
+      "description": "Twitter Bearer Token (from developer.twitter.com)",
+      "required": false,
+      "preview": false
+    },
+    {
+      "key": "TWITTER_AUTH_TOKEN",
+      "description": "Twitter auth_token cookie (alternative auth method)",
+      "required": false,
+      "preview": true
+    },
+    {
+      "key": "TWITTER_CT0",
+      "description": "Twitter ct0 cookie (alternative auth method)",
+      "required": false,
       "preview": true
     },
     {
