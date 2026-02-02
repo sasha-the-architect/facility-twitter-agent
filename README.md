@@ -74,8 +74,7 @@ Facilitators ← Returns ← Revenue ← Users pay credits
 
 ## 🔗 Quick Links
 
-- **Master Command Center:** `/MASTER_COMMAND_CENTER.md`
-- **This Project:** `/projects/the-facility/`
+- **Project Documentation:** See project files in this repository
 
 ---
 
