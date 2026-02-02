@@ -39,3 +39,4 @@ ENV PYTHONPATH=/app \
 
 # Default command
 CMD ["python3", "facility_twitter_agent.py", "--mode", "daemon"]
+# Force rebuild Mon Feb  2 00:01:41 PST 2026
