@@ -9,7 +9,3 @@ git = ""
 #!/bin/bash
 pip install -r requirements.txt
 npm install -g @steipete/bird
-
-[start]
-#!/bin/bash
-python3 facility_twitter_agent.py --mode daemon
